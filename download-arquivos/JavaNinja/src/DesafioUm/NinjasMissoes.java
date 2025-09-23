@@ -54,9 +54,9 @@ public class NinjasMissoes {
 /*Saída Terminal:
  *
  * O ninja Naruto Concluiu a missão: Derrotar o Zabuza
- * ----                                                     ////
+ * ----                                                       ///
  * O ninja Rock Lee Falhou a missão: Treinar com pesos no corpo
- * ----                                                     ////
+ * ----                                                       ///
  * O ninja Kakashi Concluiu a missão: Protejer a aldeia do Orochimaru
  *
  * */
