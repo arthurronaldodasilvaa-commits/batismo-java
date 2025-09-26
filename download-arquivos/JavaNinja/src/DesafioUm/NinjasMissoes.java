@@ -57,6 +57,6 @@ public class NinjasMissoes {
  * ----                                                       ///
  * O ninja Rock Lee Falhou a missão: Treinar com pesos no corpo
  * ----                                                       ///
- * O ninja Kakashi Concluiu a missão: Protejer a aldeia do Orochimaru
+ * O ninja Kakashi Concluiu a missão: Protejer a aldeia do Orochimaru 
  *
  * */
