@@ -42,7 +42,7 @@ public class CadastroDeNinjas {
             switch (escolha) {
                 case 1: // CADASTRAR NOVO NINJA
                     // Verifica se atingiu o limite máximo
-                    if (ninja >= 10) {
+                    if (ninja >= 9) {
                         System.out.println("Limite de 10 ninjas atingido!");
                         break;
                     }
