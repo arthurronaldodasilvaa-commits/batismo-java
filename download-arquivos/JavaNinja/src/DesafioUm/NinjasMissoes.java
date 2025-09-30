@@ -2,6 +2,7 @@ package DesafioUm;
 
 public class NinjasMissoes {
     public static void main(String[] args) {
+
         /* Ninja 1 */
         String nome1 = "Naruto";
         short idade1 = 16;
