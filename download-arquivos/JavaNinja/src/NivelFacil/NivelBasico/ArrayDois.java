@@ -1,4 +1,4 @@
-package NivelBasico;
+package NivelFacil.NivelBasico;
 
 public class ArrayDois {
     public static void main(String[] args) {
