@@ -8,6 +8,7 @@ public class Main {
         naruto.nome = "Naruto Uzumaki";
         naruto.idade = 17;
         naruto.aldeia = "Aldeia da Folha";
+        naruto.habilidadeEspecial();
         naruto.ModoSabioAtivado();
 
         // OBJ 2
@@ -16,6 +17,7 @@ public class Main {
         sasuke.nome = "Sasuke Uchiha";
         sasuke.idade = 18;
         sasuke.aldeia = "Aldeia da Folha";
+        sasuke.habilidadeEspecial();
         sasuke.SharinganAtivado();
 
         // OBJ 3
@@ -40,6 +42,7 @@ public class Main {
         boruto.nome = "Boruto Hyuga Uzumaki";
         boruto.idade = 9;
         boruto.aldeia = "Aldeia da Folha";
+        boruto.habilidadeEspecial();
         boruto.ModoSabioAtivado();
         boruto.AtivarOKarma();
         boruto.AtivarJougan();
