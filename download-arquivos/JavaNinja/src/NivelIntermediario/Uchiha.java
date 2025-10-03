@@ -1,15 +1,18 @@
 package NivelIntermediario;
 
-public class Uchiha extends Ninja {
+public class Uchiha extends Ninja implements SharinganInterface{
 
-    // Sharingan ativado, metodo público
-    public void SharinganAtivado() {
-        System.out.println("O meu nome é " + this.nome + ". Meu Sharingan ativou! Eu sou Uchiha!");
+    public Uchiha() {
+        super();
     }
 
+    public Uchiha(String nome, String aldeia, int idade) {
+        super(nome, aldeia, idade);
+    }
+
+    // Esse metodo vem direto da interface!
     @Override
-    public void habilidadeEspecial() {
-        System.out.println("Meu nome é " + this.nome + " e esse é meu Ataque Uchiha, um ataque de fogo!");
+    public void sharinganAtivado() {
+        System.out.println(this.nome + ": Ativou o Sharingan");
     }
-
 }

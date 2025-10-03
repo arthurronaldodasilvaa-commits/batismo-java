@@ -1,14 +1,18 @@
 package NivelIntermediario;
 
-public abstract class Ninja {
+public class Ninja {
 
     String nome;
-    int idade;
     String aldeia;
+    int idade;
 
-    // Metodos geral! Todos os ninjas vao ter
-    public void habilidadeEspecial() {
-        System.out.println("Meu nome é " + this.nome + " e esse é meu ataque especial");
+    public Ninja() {
+    }
+
+    public Ninja(String nome, String aldeia, int idade) {
+        this.nome = nome;
+        this.aldeia = aldeia;
+        this.idade = idade;
     }
 
 }
