@@ -26,6 +26,7 @@ public class Main {
         sakura.nome = "Sakura Haruno";
         sakura.idade = 18;
         sakura.aldeia = "Aldeia da Folha";
+        sasuke.habilidadeEspecial();
         sakura.AtivarCura();
 
         // OBJ 4
@@ -34,6 +35,7 @@ public class Main {
         hinata.nome = "Hinata Hyuga";
         hinata.idade = 16;
         hinata.aldeia = "Aldeia da Folha";
+        sasuke.habilidadeEspecial();
         hinata.ByakuganAtivado();
 
         // OBJ 5
@@ -46,6 +48,21 @@ public class Main {
         boruto.ModoSabioAtivado();
         boruto.AtivarOKarma();
         boruto.AtivarJougan();
+
+        // OBJ 6
+        System.out.println();
+        Hokages hashirama = new Hokages("Hashirama Senju", 69, false, "Aldeia da folha");
+        hashirama.habilidadeEspecial();
+
+        // OBJ 7
+        System.out.println();
+        Hokages tobirama = new Hokages("Tobirama Senju", 60, false, "Aldeia da folha");
+        hashirama.habilidadeEspecial();
+
+        // OBJ 8
+        System.out.println();
+        Hokages hiruzen = new Hokages("Hiruzen Sarutobi", 53, false, "Aldeia da folha");
+        hashirama.habilidadeEspecial();
 
     }
 }
