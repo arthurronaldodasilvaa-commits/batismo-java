@@ -1,9 +1,7 @@
 package NivelIntermediario;
 
-public class Hokages extends Ninja {
+public abstract class Hokages extends Ninja {
 
-    String nome;
-    int idade;
     boolean ativo;
 
     // All args constructor
@@ -17,4 +15,7 @@ public class Hokages extends Ninja {
     // No args constructor
     public Hokages() {
     }
+
+    public abstract void sabedoriaHokage();
+
 }

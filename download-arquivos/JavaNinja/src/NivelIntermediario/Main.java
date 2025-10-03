@@ -51,18 +51,15 @@ public class Main {
 
         // OBJ 6
         System.out.println();
-        Hokages hashirama = new Hokages("Hashirama Senju", 69, false, "Aldeia da folha");
+        Senju hashirama = new Senju("Hashirama Senju", 69, false, "Aldeia da folha");
         hashirama.habilidadeEspecial();
+        hashirama.sabedoriaHokage();
 
         // OBJ 7
         System.out.println();
-        Hokages tobirama = new Hokages("Tobirama Senju", 60, false, "Aldeia da folha");
-        hashirama.habilidadeEspecial();
-
-        // OBJ 8
-        System.out.println();
-        Hokages hiruzen = new Hokages("Hiruzen Sarutobi", 53, false, "Aldeia da folha");
-        hashirama.habilidadeEspecial();
+        Senju tobirama = new Senju("Tobirama Senju", 60, false, "Aldeia da folha");
+        tobirama.habilidadeEspecial();
+        tobirama.sabedoriaHokage();
 
     }
 }
